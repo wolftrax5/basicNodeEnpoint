@@ -8,6 +8,8 @@ res.header('Access-Control-Allow-Headers', "*");
 next();
 }
 app.use(allowCrossDomain);
+app.use(express.json());
+
 var routes = require('./api/routes/userRoutes'); //importing route
 routes(app); //register the route
 
