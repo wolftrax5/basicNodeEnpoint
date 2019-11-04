@@ -15,6 +15,6 @@
   "dependencies": {
     "express": "^4.17.1",
     "getstream": "^4.2.2",
-    "mongoose": "^5.6.0"
+    "mongoose": "^5.7.5"
   }
 }
